@@ -1,6 +1,7 @@
 import React from 'react';
 import Services from '../components/Services';
 import { motion } from 'framer-motion';
+import { Link } from 'react-router-dom';
 
 const Catalog: React.FC = () => {
   return (
