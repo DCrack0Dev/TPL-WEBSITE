@@ -1,0 +1,7 @@
+<svg width="300" height="100" viewBox="0 0 300 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="300" height="100" fill="black"/>
+  <path d="M20 20H80V35H57.5V80H42.5V35H20V20Z" fill="#C9A646"/>
+  <rect x="20" y="85" width="60" height="2" fill="#C9A646" />
+  <text x="100" y="55" fill="white" style="font-family: 'Playfair Display', serif; font-size: 32px; font-weight: bold; letter-spacing: -1px;">TPL <tspan fill="#C9A646">SERVICES</tspan></text>
+  <text x="100" y="75" fill="#D4B76B" style="font-family: 'Lato', sans-serif; font-size: 10px; text-transform: uppercase; letter-spacing: 2px;">TAX ADVISORY</text>
+</svg>

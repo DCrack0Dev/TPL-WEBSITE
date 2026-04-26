@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Lato:wght@300;400;700&display=swap');
+
+@import "tailwindcss";
+
+@theme {
+  --color-gold: #C9A646;
+  --color-gold-dark: #B3923D;
+  --color-gold-light: #D4B76B;
+  --color-black: #000000;
+  --color-white: #FFFFFF;
+
+  --font-playfair: "Playfair Display", serif;
+  --font-lato: "Lato", sans-serif;
+}
+
+:root {
+  font-family: 'Lato', sans-serif;
+  color-scheme: light dark;
+  color: white;
+  background-color: #000000;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #000000;
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+}
+
+.gold-gradient {
+  background: linear-gradient(135deg, #C9A646 0%, #D4B76B 50%, #C9A646 100%);
+}
+
+.gold-text-gradient {
+  background: linear-gradient(135deg, #C9A646 0%, #D4B76B 50%, #C9A646 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+html {
+  scroll-behavior: smooth;
+}
